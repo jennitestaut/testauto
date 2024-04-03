@@ -9,5 +9,5 @@ WORKDIR /test
 
 CMD [ "python3", "/test/test.py" ]
 
-#CMD [ "pytest" ]
+
 
