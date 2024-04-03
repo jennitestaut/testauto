@@ -1,1 +1,1 @@
-docker run --rm -ti --name menzisappium -v c://Testautomatisering/test/test.py:/test/test.py menzisappium:appium_test
+docker run --rm -ti --name menzisappium -v c://Testautomatisering/test.py:/test.py menzisappium:appium_test

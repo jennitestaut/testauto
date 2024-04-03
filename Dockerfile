@@ -5,9 +5,9 @@ USER root
 RUN apt-get update && apt-get install -yy nano curl && \
     pip install Appium-Python-Client
 
-WORKDIR /test
+WORKDIR /Testautomatisering
 
-CMD [ "python3", "/test/test.py" ]
+CMD [ "python3", "/test.py" ]
 
 
 
