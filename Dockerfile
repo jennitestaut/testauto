@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -yy nano curl && \
 
 WORKDIR /Testautomatisering
 
-CMD [ "python3", "/test.py" ]
+CMD [ "python3", "/test2.py" ]
 
 
 
